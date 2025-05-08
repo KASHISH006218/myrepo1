@@ -17,19 +17,19 @@ class main{
     
 abstract class Payment{
     abstract void pay(int a);
-    void print(){
-        System.out.println("x:payment done");
+void print(){
+         
 
-    }
-}
-class UpiPayment extends Payment{
-    void pay(int a){
-        System.out.println("payment done via Upi" + a);
-    }
-}
-class CardPayment extends Payment{
-    void pay(int a){
-        System.out.println("CardPayment of" + a);
-    }
-}
+// package java;
 
+// import java.util.regex.Pattern;
+
+// public class Main{
+//     public static void main(String[] args) {
+//         pattern obj= new pattern();
+//         obj.sayhello();
+//         System.out.println(obj.name);
+//     }
+
+
+}
