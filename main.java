@@ -2,7 +2,7 @@
   class Main{
         public static void main(String[] args) {
             Atm obj = new Atm();
-            obj.setRupees(501);
+            obj.setRupees(1900);
             System.out.println(obj.getRupees());
         }
     }
