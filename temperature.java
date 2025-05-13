@@ -15,7 +15,7 @@ public class Temperature {
 public Temperature (double celsius ){
     this.celsius = celsius;
 }
-public double getFahrahiet(){
+public double getFahraheit(){
     return ( celsius * 9/ 5)+32;
 }
 }

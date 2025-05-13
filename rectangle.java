@@ -28,7 +28,8 @@ public void setWidth(double width){
 public double getArea(){
     return length * width;
     public double getperimeter(){
-        return 2( length + width)
-    }
+
+        return 2( length +   width)
+    
 }
 }
