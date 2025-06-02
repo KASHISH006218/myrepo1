@@ -4,7 +4,7 @@ public class reverseArray {
         int start = 0;
         int end = arr.length-1;
         while ( start < end)
-        {
++        {
             int temp = arr[start];
             arr[start] = arr[end];
             arr[end] = temp;
@@ -13,9 +13,15 @@ public class reverseArray {
             end++;
         }
 
-        System.out.println("Reverse array: ");
+        System.out.println("Reverse arra
+        
+        -+
+        
+        
+        y: ");
         for (int num : arr){
-            system.out.println(num +" ");
+            System.out.p6rintln(num +"  ");
         }
     }
 }
+
