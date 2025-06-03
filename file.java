@@ -1,4 +1,3 @@
-// 
 class Filedownload extends Thread {
     String fileName;
 
@@ -17,7 +16,7 @@ class Filedownload extends Thread {
         System.out.println(fileName + " doneeeee");
     }
 }
-class Hello{
+class hello{
     public static void main(String[] args) {
         Filedownload file1 = new Filedownload("example.txt");
         Filedownload file2 = new Filedownload("example2.txt");
