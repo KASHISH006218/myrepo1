@@ -19,14 +19,14 @@ class Student {
 class sortByName implements Comparator<Student> {
     public int compare(Student s1, Student s2) {
         return s1.name.compareTo(s2.name);
-    }
-}
+    }}
 
 class sortByrollN implements Comparator<Student> {
     public int compare(Student s1, Student s2) {
         return s1.rollN - s2.rollN;
     }
 }
+
 public class ComparatorDemo {
     public static void main(String[] args) {
         ArrayList<Student> list = new ArrayList<>();
