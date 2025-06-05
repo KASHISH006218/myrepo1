@@ -1,10 +1,10 @@
 class Hello1 {
-    int blaance = 1000;
+    int balance = 1000;
 
     public void withdraw(int amount) {
-        if (amount <= blaance) {
-            blaance -= amount;
-            System.out.println("Withdrawal of " + amount + " successful. Remaining balance: " + blaance);
+        if (amount <= balance) {
+            balance -= amount;
+            System.out.println("Withdrawal of " + amount + " successful. Remaining balance: " + balance);
         } else {
             System.out.println("Insufficient balance for withdrawal of " + amount);
         }
