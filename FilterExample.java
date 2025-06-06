@@ -15,16 +15,19 @@
 //  }
 import java.util.*;
  import java.util.stream.*;
- public class FilterExample {
+ public class MaxFilterExample {
 
- public static void main(String[] args) {
-        // List of integers
-        List<Integer> numbers = Arrays.asList(5,10,15,20,25);
-    
-        // Using Stream API to filter even numbers
-        List<Integer> evenNumbers = numbers.stream()
-                           .filter(n -> n % 2 == 0)
-                           .collect(Collectors.toList());
-        System.out.println("Even numbers: " + evenNumbers);
+     public static void main(String[] args) {
+        List Integer> numbers = Arrays.asList(5,10,15,20,25);
+
+         // Using Stream API to filter even numbers and find the maximum
+         Optional<Integer> maxEvenNumber = numbers.stream()
+                           .filter(num -> num % 2 == 0)
+                           .max(Integer::compareTo);
+
+         // Print the maximum even number if present
+         maxEvenNumber.ifPresent(System.out::println);
+     }
  }
- }
+         
+
